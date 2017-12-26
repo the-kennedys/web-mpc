@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Play from './components/Play';
 
 class App extends Component {
   state = {users:[]};
 
   async onComponentLoaded() {
-      let response = await fetch('users')
+      let response = await fetch('users');
   }
 
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Play></Play>
       </div>
     );
   }
