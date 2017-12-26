@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Pause from './components/Pause';
 import Play from './components/Play';
 
 class App extends Component {
@@ -20,7 +21,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Play></Play>
+        <Play></Play><Pause></Pause>
       </div>
     );
   }
