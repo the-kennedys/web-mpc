@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 
 class Pause extends React.Component {
 
@@ -9,9 +10,9 @@ class Pause extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleClick}>
-        Pause
-      </button>
+      <Button onClick={this.handleClick} >
+      <i  class="material-icons">pause</i>
+      </Button>
     );
   }
 }

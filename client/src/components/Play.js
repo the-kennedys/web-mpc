@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 
 class Play extends React.Component {
 
@@ -9,8 +10,8 @@ class Play extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleClick}>
-        Play
+      <button type="button" class="btn btn-default">
+      <i onClick={this.handleClick} class="material-icons">play_arrow</i>
       </button>
     );
   }
