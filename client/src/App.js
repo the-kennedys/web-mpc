@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Library from './components/Library';
 import Pause from './components/Pause';
 import Play from './components/Play';
 import Tune from './components/Tune';
@@ -32,6 +33,7 @@ class App extends Component {
             <Tune station="radio5" caption="Radio 5"></Tune>
             <Tune station="radio6" caption="Radio 6"></Tune>
           </ButtonToolbar>
+          <Library></Library>
         </div>
       </div>
     );
