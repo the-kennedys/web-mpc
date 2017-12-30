@@ -10,8 +10,8 @@ class Play extends React.Component {
 
   render() {
     return (
-      <button type="button" class="btn btn-default">
-      <i onClick={this.handleClick} class="material-icons">play_arrow</i>
+      <button type="button" className="btn btn-default">
+      <i onClick={this.handleClick} className="material-icons">play_arrow</i>
       </button>
     );
   }

@@ -16,7 +16,7 @@ class Tune extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleClick} type="button" class="btn btn-default">
+      <button onClick={this.handleClick} type="button" className="btn btn-default">
         {this.props.caption}
       </button>
     );

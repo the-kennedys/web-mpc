@@ -22,7 +22,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <h1>Media Controls</h1>
-        <div class="container">
+        <div className="container">
           <ButtonToolbar>
             <Play></Play><Pause></Pause>
           </ButtonToolbar>

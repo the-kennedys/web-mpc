@@ -11,7 +11,7 @@ class Pause extends React.Component {
   render() {
     return (
       <Button onClick={this.handleClick} >
-      <i  class="material-icons">pause</i>
+      <i  className="material-icons">pause</i>
       </Button>
     );
   }
