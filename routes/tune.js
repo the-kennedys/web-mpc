@@ -26,7 +26,7 @@ router.get('/:station', function(req, res, next) {
               client.write('add "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p"\n');
               break;
             case 'radio5':
-              client.write('add "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p"\n');
+              client.write('add "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_five_live.m3u8"\n');
               break;
             case 'radio6':
               client.write('add "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p"\n');
